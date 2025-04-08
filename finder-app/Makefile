@@ -1,5 +1,7 @@
 CROSS_COMPILE?=
 
+all: default
+
 default: writer
 
 writer.o: writer.c
